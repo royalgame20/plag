@@ -1,0 +1,41 @@
+
+----------- SCAN REPORT -----------
+TimeStamp: Thu, 14 Sep 2023 16:12:25 -0400
+(/usr/sbin/cxs --background --clamdsock /var/clamd --dbreport --defapache nobody --doptions Mv --exploitscan --nofallback --filemax 50000 --noforce --html --ignore /etc/cxs/cxs.ignore.manual --options mMOLfSGchexdnwZDRru --noprobability --qoptions Mv --report /home/softztwx/scanreport-softztwx-Sep_14_2023_16h12m.txt --sizemax 1000000 --ssl --summary --sversionscan --timemax 30 --unofficial --user softztwx --virusscan --vmrssmax 2000000 --xtra /etc/cxs/cxs.xtra.manual)
+
+
+Scanning /home/softztwx:
+
+'/home/softztwx/access-logs'
+# Symlink to [/etc/apache2/logs/domlogs/softztwx]
+
+'/home/softztwx/.nc_plugin/hidden'
+# World writeable directory
+
+'/home/softztwx/.softaculous/installations.php'
+# Universal decode regex match = [universal decoder]
+
+'/home/softztwx/public_html/wp-content/plugins/indeed-membership-pro/classes/RegisterForm.php'
+# Regular expression match = [setuid\(\s*(\"|\')?0]
+
+'/home/softztwx/public_html/wp-content/plugins/woocommerce/vendor/maxmind-db/reader/ext/maxminddb.c'
+# Suspicious file type [application/x-c]
+
+'/home/softztwx/seoandamztools.com/wp-content/plugins/woocommerce/vendor/maxmind-db/reader/ext/maxminddb.c'
+# Suspicious file type [application/x-c]
+
+'/home/softztwx/sharetoolsaccess.com/wp-content/plugins/woocommerce/vendor/maxmind-db/reader/ext/maxminddb.c'
+# Suspicious file type [application/x-c]
+
+----------- SCAN SUMMARY -----------
+Scanned directories: 21080
+Scanned files: 104844
+Ignored items: 192
+Suspicious matches: 7
+Viruses found: 0
+Fingerprint matches: 0
+Data scanned: 2655.89 MB
+Scan peak memory: 275432 kB
+Scan time/item: 0.025 sec
+Scan time: 3094.810 sec
+
